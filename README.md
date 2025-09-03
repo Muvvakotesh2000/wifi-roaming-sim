@@ -69,7 +69,8 @@ wifi-roaming-sim/
 │   └── wpa_supplicant.conf     # Client configuration
 ├── screenshots/
 │   ├── dashboard.png           # Dashboard interface
-│   └── roaming_logs.png        # Log output examples
+│   ├── roaming_logs.png        # Commands Output
+│   └── demo.mp4                # Demo Video File
 └── README.md                   # This file
 ```
 
@@ -121,23 +122,23 @@ curl http://localhost:5000
 
 ### Network Architecture
 ```
-┌─────────────────────────────────────────────────────────────────┐
-│                    Wi-Fi Roaming Simulation                     │
-├─────────────────────────────────────────────────────────────────┤
-│ Dashboard (Flask) │ Roaming Manager │ System Services           │  
-│ - Web Interface   │ - Signal Monitor│ - hostapd                 │
-│ - Real-time Status│ - AP Selection  │ - wpa_supplicant          │
-│ - Connection Logs │ - Auto Handover │ - dnsmasq                 │
-├─────────────────────────────────────────────────────────────────┤
-│                    Network Layer                                │
-│        Bridge (br0) - 192.168.1.1/24                            │
-│ ├── AP1 (wlan0) - Channel 1 (2412 MHz) - TestNet                │
-│ ├── AP2 (wlan1) - Channel 6 (2437 MHz) - TestNet                │
-│ └── Client (wlan2) - Roaming between APs                        │
-├─────────────────────────────────────────────────────────────────┤
-│                Virtual Hardware Layer                           │
-│           mac80211_hwsim - 3 Virtual Radios                     │
-└─────────────────────────────────────────────────────────────────┘
+┌───────────────────────────────────────────────────────┐
+│                    Wi-Fi Roaming Simulation           │
+├───────────────────────────────────────────────────────┤
+│ Dashboard (Flask) │ Roaming Manager │ System Services │  
+│ - Web Interface   │ - Signal Monitor│ - hostapd       │
+│ - Real-time Status│ - AP Selection  │ - wpa_supplicant│
+│ - Connection Logs │ - Auto Handover │ - dnsmasq       │
+├───────────────────────────────────────────────────────┤
+│                    Network Layer                      │
+│        Bridge (br0) - 192.168.1.1/24                  │
+│ ├── AP1 (wlan0) - Channel 1 (2412 MHz) - TestNet      │
+│ ├── AP2 (wlan1) - Channel 6 (2437 MHz) - TestNet      │
+│ └── Client (wlan2) - Roaming between APs              │
+├───────────────────────────────────────────────────────┤
+│                Virtual Hardware Layer                 │
+│           mac80211_hwsim - 3 Virtual Radios           │
+└───────────────────────────────────────────────────────┘
 ```
 
 ### Roaming Decision Algorithm
