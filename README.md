@@ -117,21 +117,21 @@ curl http://localhost:5000
 ### Network Architecture
 ```
 ┌─────────────────────────────────────────────────────────────────┐
-│                    Wi-Fi Roaming Simulation                    │
+│                    Wi-Fi Roaming Simulation                     │
 ├─────────────────────────────────────────────────────────────────┤
-│ Dashboard (Flask) │ Roaming Manager │ System Services │
-│ - Web Interface   │ - Signal Monitor│ - hostapd       │
-│ - Real-time Status│ - AP Selection  │ - wpa_supplicant│
-│ - Connection Logs │ - Auto Handover │ - dnsmasq       │
+│ Dashboard (Flask) │ Roaming Manager │ System Services           │  
+│ - Web Interface   │ - Signal Monitor│ - hostapd                 │
+│ - Real-time Status│ - AP Selection  │ - wpa_supplicant          │
+│ - Connection Logs │ - Auto Handover │ - dnsmasq                 │
 ├─────────────────────────────────────────────────────────────────┤
-│                    Network Layer                               │
-│        Bridge (br0) - 192.168.1.1/24                         │
-│ ├── AP1 (wlan0) - Channel 1 (2412 MHz) - TestNet            │
-│ ├── AP2 (wlan1) - Channel 6 (2437 MHz) - TestNet            │
-│ └── Client (wlan2) - Roaming between APs                     │
+│                    Network Layer                                │
+│        Bridge (br0) - 192.168.1.1/24                            │
+│ ├── AP1 (wlan0) - Channel 1 (2412 MHz) - TestNet                │
+│ ├── AP2 (wlan1) - Channel 6 (2437 MHz) - TestNet                │
+│ └── Client (wlan2) - Roaming between APs                        │
 ├─────────────────────────────────────────────────────────────────┤
-│                Virtual Hardware Layer                          │
-│           mac80211_hwsim - 3 Virtual Radios                   │
+│                Virtual Hardware Layer                           │
+│           mac80211_hwsim - 3 Virtual Radios                     │
 └─────────────────────────────────────────────────────────────────┘
 ```
 
@@ -199,7 +199,7 @@ ping -i 0.1 192.168.1.1
 
 ## 📊 Dashboard Interface
 
-![Dashboard Screenshot](https://github.com/yourusername/wifi-roaming-sim/blob/main/screenshots/dashboard.png)
+![Dashboard Screenshot](https://github.com/yourusername/wifi-roaming-sim/blob/main/screenshots/dashboard.jpg)
 
 ### Features
 - **Real-time Connection Status**: Current AP, signal strength, BSSID
@@ -219,7 +219,7 @@ GET /api/logs           # Recent roaming activity
 ## 🛠️ Configuration and Customization
 
 ### Roaming Parameters
-Edit `/home/koti/roaming_manager.sh`:
+Edit `/home/username/roaming_manager.sh`:
 ```bash
 THRESHOLD_DBM=-70          # More sensitive roaming
 MIN_RSSI_IMPROVEMENT=5     # Require larger improvement
