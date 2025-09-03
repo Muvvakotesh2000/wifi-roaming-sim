@@ -2,7 +2,7 @@
 
 ![S-Cone Industrial Installation](https://github.com/Muvvakotesh2000/wifi-roaming-sim/blob/main/screenshots/s-cone-industrial.jpg)
 
-*Inspired by the Strategic S-Cone 6 Mobile WiFi Network system - bringing enterprise-grade roaming simulation to developers and network engineers*
+*Inspired by the Strategic S-Cone 6 Mobile WiFi Network system - An enterprise-grade roaming solution to developers and network engineers*
 
 ## 🎯 Project Overview
 
