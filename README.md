@@ -16,11 +16,8 @@ The [Strategic S-Cone 6](https://sssinc.biz/products/s-cone-mobile-wifi-network/
 
 ## 🎯 Project Demo
 
-<details>
-  <summary><b>▶ Watch the Video Demo</b></summary>
-
-  <br/>
-
+<!-- 📹 Video Demo -->
+<p align="center">
   <video
     src="screenshots/demo.mp4"
     controls
@@ -32,7 +29,8 @@ The [Strategic S-Cone 6](https://sssinc.biz/products/s-cone-mobile-wifi-network/
     Your browser doesn't support embedded videos.
     Please <a href="https://raw.githubusercontent.com/Muvvakotesh2000/wifi-roaming-sim/main/screenshots/demo.mp4">download the demo.mp4</a>.
   </video>
-</details>
+</p>
+
 
 
 ## ⭐ Key Features
