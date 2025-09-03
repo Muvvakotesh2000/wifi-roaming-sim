@@ -17,11 +17,6 @@ The [Strategic S-Cone 6](https://sssinc.biz/products/s-cone-mobile-wifi-network/
 ## 🎥 Demo Video
 
 Watch the Wi-Fi roaming simulation in action on our [GitHub Pages demo page](https://muvvakotesh2000.github.io/wifi-roaming-sim/)!
-
-Alternatively, click the image below to view the video directly:
-
-[![Watch the Wi-Fi Roaming Demo](screenshots/dashboard.png)](https://raw.githubusercontent.com/Muvvakotesh2000/wifi-roaming-sim/main/screenshots/demo.mp4)
-
 ## ⭐ Key Features
 
 ### 🏗️ Virtual Infrastructure
