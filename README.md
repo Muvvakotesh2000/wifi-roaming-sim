@@ -368,7 +368,7 @@ This project is inspired by and refers the Strategic S-Cone 6 Mobile WiFi Networ
 
 ---
 
-> *"In industrial environments where reliable wireless connectivity is essential, the right technology can make all the difference."* - Strategic Service Solutions
+> *"In industrial environments where reliable wireless connectivity is essential, the right technology can make all the difference."* 
 
 ---
 
