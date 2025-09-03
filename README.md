@@ -14,6 +14,27 @@ The [Strategic S-Cone 6](https://sssinc.biz/products/s-cone-mobile-wifi-network/
 
 ![S-Cone Key Features](https://github.com/Muvvakotesh2000/wifi-roaming-sim/blob/main/screenshots/s-cone-features.jpg)
 
+## 🎯 Project Demo
+
+<details>
+  <summary><b>▶ Watch the Video Demo</b></summary>
+
+  <br/>
+
+  <video
+    src="screenshots/demo.mp4"
+    controls
+    loop
+    muted
+    playsinline
+    style="max-width:100%;height:auto;border-radius:12px;"
+    poster="screenshots/dashboard.png">
+    Your browser doesn't support embedded videos.
+    Please <a href="https://raw.githubusercontent.com/Muvvakotesh2000/wifi-roaming-sim/main/screenshots/demo.mp4">download the demo.mp4</a>.
+  </video>
+</details>
+
+
 ## ⭐ Key Features
 
 ### 🏗️ Virtual Infrastructure
