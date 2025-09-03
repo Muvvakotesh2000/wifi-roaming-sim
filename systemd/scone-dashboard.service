@@ -1,0 +1,20 @@
+[Unit]
+Description=Wi-Fi Roaming Dashboard
+After=network-online.target
+
+[Service]
+WorkingDirectory=/home/koti/dashboard
+ExecStart=/usr/bin/python3 /home/koti/dashboard/app.py
+Restart=always
+User=root
+Group=root
+
+# (Optional hardening)
+# ProtectSystem=strict
+# ProtectHome=true
+# PrivateTmp=true
+# NoNewPrivileges=true
+# AmbientCapabilities=
+
+[Install]
+WantedBy=multi-user.target

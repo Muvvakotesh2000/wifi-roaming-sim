@@ -1,0 +1,22 @@
+[Unit]
+Description=Wi-Fi Roaming Manager
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+ExecStart=/home/koti/roaming_manager.sh
+Restart=always
+RestartSec=2
+StandardOutput=append:/home/koti/roaming.log
+StandardError=append:/home/koti/roaming.log
+
+# (Optional hardening you can uncomment)
+# CapabilityBoundingSet=CAP_NET_ADMIN CAP_NET_RAW CAP_DAC_READ_SEARCH
+# AmbientCapabilities=CAP_NET_ADMIN CAP_NET_RAW
+# ProtectSystem=strict
+# ProtectHome=true
+# PrivateTmp=true
+# NoNewPrivileges=true
+
+[Install]
+WantedBy=multi-user.target
