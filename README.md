@@ -199,7 +199,7 @@ ping -i 0.1 192.168.1.1
 
 ## 📊 Dashboard Interface
 
-![Dashboard Screenshot](https://github.com/yourusername/wifi-roaming-sim/blob/main/screenshots/dashboard.png)
+![Dashboard Screenshot](https://github.com/Muvvakotesh2000/wifi-roaming-sim/blob/main/screenshots/dashboard.png)
 
 ### Features
 - **Real-time Connection Status**: Current AP, signal strength, BSSID
