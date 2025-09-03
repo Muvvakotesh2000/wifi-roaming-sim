@@ -63,6 +63,8 @@ wifi-roaming-sim/
 ├── roaming_manager.sh          # Core roaming algorithm
 ├── dashboard/
 │   └── app.py                  # Flask-based monitoring interface
+├── docs
+│   └── index.html              # HTML Page for Demo
 ├── systemd/
 │   ├── roaming.service         # Roaming manager service
 │   └── scone-dashboard.service # Dashboard service
